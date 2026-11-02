@@ -1,3 +1,4 @@
+
  // Carrossel de fotos do carro.
             (function () {
                 var track = document.getElementById('track');
@@ -87,4 +88,3 @@
                 current = (current - 1 + slides.length) % slides.length;
                 updateCarousel();
             });
-            updateCarousel();
