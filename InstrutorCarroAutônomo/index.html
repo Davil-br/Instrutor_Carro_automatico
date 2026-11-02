@@ -51,13 +51,13 @@
                     <!-- Inicio do carrossel de fotos do carro. -->
                     <div class="carousel" role="group" aria-roledescription="carrossel" aria-label="Fotos do carro de aula">
                         <div class="track" id="track" tabindex="0" aria-live="polite">
-                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="1 de 4">Foto 1: carro por fora<br>
+                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="1 de 4"> <img id="carro_fora" src="img/foto carro por fora.jpg" alt="foto Carro por fora"><br>
                             </div>
-                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="2 de 4">Foto 2: painel e volante<br>
+                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="2 de 4"> <img src="img/painel e volante.jpeg" alt="foto do painel e volante"><br>
                             </div>
-                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="3 de 4">Foto 3: interior (frente)<br>
+                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="3 de 4"> <img src="img/interior frente.jpeg" alt="foto do interior do carro parte da frente"><br>
                             </div>
-                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="4 de 4">Foto 4: interior (bancos traseiros)<br>
+                            <div class="slide ph" role="group" aria-roledescription="slide" aria-label="4 de 4"> <img src="img/interior atras.jpeg" alt="foto do interior do carro parte de tras"><br>
                             </div>
                         </div>
                         <div class="ctrl">
@@ -94,7 +94,7 @@
             <!-- Inicio da seção sobre o instrutor Leandro. -->
             <section class="about" id="sobre" aria-labelledby="t-sobre">
                 <div class="wrap grid">
-                    <div class="ph person" role="img" aria-label="Espaço para a foto do instrutor">Foto do instrutor<br>
+                    <div class="ph person" role="img" aria-label="Espaço para a foto do instrutor"> <img src="img/foto do instrutor.jpeg" alt="Foto do instrutor"><br>
                     </div>
                     <div>
                         <h2 id="t-sobre">Conheça Leandro de Almeida</h2>
@@ -145,45 +145,59 @@
                         <p>Carro automático e 100% elétrico, conservado e preparado para aula.</p>
                         <a class="btn ghost" href="https://wa.me/553188665651" rel="noopener">Perguntar sobre valores</a>
                     </div>
-                    <div class="ph car" role="img" aria-label="Espaço para fotos do interior do carro">Foto do carro por dentro<br>
+                    <div class="ph car" role="img" aria-label="Espaço para fotos do interior do carro"> <img src="img/foto do carro por fora.png.jpeg" alt="Foto do carro por fora"><br>
                     </div>
                 </div>
             </section>
 
             <!-- Inicio da seção de depoimentos dos alunos. -->
-            <section class="reviews" aria-labelledby="t-rev">
-                <div class="wrap">
-                    <h2 id="t-rev">O que os alunos dizem</h2>
-                    <div class="rev-carousel">
-                        <button class="rev-btn prev" aria-label="Depoimento anterior">❮</button>
-                        <div class="rev-window">
-                            <div class="rev-track">
-                                <figure class="rev">
-                                    <blockquote>
-                                        <p>“Eu tinha pavor de dirigir. Na terceira aula já estava confiante.”</p>
-                                    </blockquote>
-                                    <figcaption>Aluna [nome]</figcaption>
-                                </figure>
-                                <figure class="rev">
-                                    <blockquote>
-                                        <p>“Muito paciente e fácil de falar. Passei de primeira.”</p>
-                                    </blockquote>
-                                    <figcaption>Aluno [nome]</figcaption>
-                                </figure>
-                                <figure class="rev">
-                                    <blockquote>
-                                        <p>“Recomendo muito para quem está começando e quer aprender com alguém que realmente se dedica aos alunos!”</p>
-                                    </blockquote>
-                                    <figcaption>Eduarda</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <button class="rev-btn next" aria-label="Próximo depoimento">❯</button>
-                    </div>
-                    <div class="rev-dots" aria-label="Navegação dos depoimentos"></div>
-                </div>
-            </section>
+<section class="reviews" aria-labelledby="t-rev">
+    <div class="wrap">
+        <h2 id="t-rev">O que os alunos dizem</h2>
 
+        <div class="rev-carousel">
+            <button class="rev-btn prev" aria-label="Depoimento anterior">❮</button>
+
+            <div class="rev-window">
+                <div class="rev-track">
+
+                    <!-- Primeiro depoimento -->
+                    <figure class="rev">
+                        <video controls preload="metadata" playsinline>
+                            <source src="videos/depoimento 1.mp4" type="video/mp4">
+                        </video>
+                    </figure>
+
+                    <!-- Segundo depoimento -->
+                    <figure class="rev">
+                        <video controls preload="metadata" playsinline>
+                            <source src="videos/depoimento 2.mp4" type="video/mp4">
+                        </video>
+                    </figure>
+
+                    <!-- Terceiro depoimento -->
+                    <figure class="rev">
+                        <video controls preload="metadata" playsinline>
+                            <source src="videos/depoimento 3.mp4" type="video/mp4">
+                        </video>
+                    </figure>
+
+                    <!-- quarto depoimento -->
+                    <figure class="rev">
+                        <video controls preload="metadata" playsinline>
+                            <source src="videos/depoimento 4.mp4" type="video/mp4">
+                        </video>
+                    </figure>
+
+                </div>
+            </div>
+
+            <button class="rev-btn next" aria-label="Próximo depoimento">❯</button>
+        </div>
+
+        <div class="rev-dots" aria-label="Navegação dos depoimentos"></div>
+    </div>
+</section>
             <!-- Inicio da seção de contato: WhatsApp e Instagram. -->
             <section class="contact" id="contato" aria-labelledby="t-contato">
                 <div class="wrap">

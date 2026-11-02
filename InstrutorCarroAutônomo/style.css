@@ -513,6 +513,17 @@
                 border-color: var(--red);
             }
 
+            /* Início da estilização dos vídeos dos depoimentos */
+            .rev video {
+                display: block;
+                width: 100%;
+                max-width: 500px;
+                max-height: 450px;
+                margin: 0 auto 15px;
+                border-radius: 12px;
+                background-color: #000;
+}
+
             /* Inicio das classes para destacar palavras. */
             .vermelho-destaque {
                 color: #d61313;
