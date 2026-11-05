@@ -20,35 +20,6 @@
                 padding-bottom: env(safe-area-inset-bottom,0px);
             }
 
-            /* Inicio das cores para o modo escuro do aparelho. */
-            @media (prefers-color-scheme:dark) {
-                :root:not([data-theme="light"]) {
-                    --bg: #000;
-                    --fg: #fff;
-                    --muted: #c2bebe;
-                    --line: #2c2c2c;
-                    --soft: #141414;
-                    --red: #e0566d;
-                    --red-dark: #f0829a;
-                    --on-red: #000;
-                    --dark-bg: #fff;
-                    --dark-fg: #000;
-                }
-            }
-
-            /* Inicio das cores para o tema escuro definido na página. */
-            :root[data-theme="dark"] {
-                --bg: #000;
-                --fg: #fff;
-                --muted: #c9c9c9;
-                --line: #2c2c2c;
-                --soft: #141414;
-                --red: #e0566d;
-                --red-dark: #f0829a;
-                --on-red: #000;
-                --dark-bg: #fff;
-                --dark-fg: #000;
-            }
 
             /* Inicio dos estilos gerais da página. */
             html {
@@ -379,7 +350,7 @@
 
             .social {
                 display: flex;
-                flex-wrap: wrap;
+                
                 gap: .75rem;
                 margin-top: 1.25rem;
             }
@@ -455,6 +426,9 @@
                 }
                 .fab {
                     display: none;
+                }
+                .social {
+                    display: flex;
                 }
             }
 
@@ -651,7 +625,7 @@
                 text-align: center;
             }
 
-             @media (max-width: 759px) {
+             @media (max-width: 700px) {
                 body {
                     font-size: 1rem;
                 }
@@ -665,7 +639,8 @@
                     gap: .75rem;
                 }
                 .logo {
-                    width: 64px;
+                    width: 50px;
+                    margin-bottom: 10px;
                 }
                 .brand {
                     font-size: 1rem;
@@ -696,7 +671,7 @@
                     gap: 1.75rem;
                 }
                 .actions, .social {
-                    flex-direction: column;
+                    flex-direction: flex;
                     align-items: stretch;
                 }
                 .actions .btn, .social .btn {
@@ -715,6 +690,7 @@
                     padding: .65rem 1rem;
                     font-size: .95rem;
                 }
+                
             }
 
             /* Inicio dos ajustes dos depoimentos para celular. */
@@ -747,5 +723,8 @@
                 }
                 .rev-btn.next {
                     justify-self: start;
+                }
+                .logo {
+                    margin-bottom: 20px;
                 }
             }
