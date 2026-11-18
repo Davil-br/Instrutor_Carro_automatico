@@ -1,4 +1,4 @@
-/ Inicio das cores e fontes usadas no site. /
+/* Inicio das cores e fontes usadas no site. */
 
             :root {
 
@@ -36,7 +36,7 @@
 
             }
 
-            / Inicio dos estilos gerais da página. /
+            /* Inicio dos estilos gerais da página. */
 
             html {
 
@@ -84,7 +84,7 @@
 
             }
 
-            / Inicio dos estilos do link para pular para o conteúdo. /
+            /* Inicio dos estilos do link para pular para o conteúdo. */
 
             .skip {
 
@@ -110,7 +110,7 @@
 
             }
 
-            / Inicio do estilo que centraliza e limita a largura do conteúdo. /
+            /* Inicio do estilo que centraliza e limita a largura do conteúdo. */
 
             .wrap {
 
@@ -122,7 +122,7 @@
 
             }
 
-            / Inicio dos estilos dos títulos e parágrafos. /
+            /* Inicio dos estilos dos títulos e parágrafos. */
 
             h1,h2,h3 {
 
@@ -172,7 +172,7 @@
 
             }
 
-            / Inicio dos estilos dos botões. /
+            /* Inicio dos estilos dos botões. */
 
             .btn {
 
@@ -278,7 +278,7 @@
 
             }
 
-                        / Inicio da faixa decorativa que lembra uma pista. /
+                        /* Inicio da faixa decorativa que lembra uma pista. */
 
             .lane {
 
@@ -288,7 +288,7 @@
 
             }
 
-            / Inicio dos estilos do cabeçalho e da logo. /
+            /* Inicio dos estilos do cabeçalho e da logo. */
 
             header.top {
 
@@ -344,7 +344,7 @@
 
             }
 
-            / Inicio dos estilos da seção de apresentação. /
+            /* Inicio dos estilos da seção de apresentação. */
 
             .hero {
 
@@ -380,7 +380,7 @@
 
             }
 
-            / Inicio dos espaços reservados para as fotos. /
+            /* Inicio dos espaços reservados para as fotos. */
 
             .ph {
 
@@ -418,7 +418,7 @@
 
             }
 
-            / Inicio do espaçamento das seções. /
+            /* Inicio do espaçamento das seções. */
 
             section {
 
@@ -426,7 +426,7 @@
 
             }
 
-            / Inicio dos estilos da seção de diferenciais. /
+            /* Inicio dos estilos da seção de diferenciais. */
 
             .why {
 
@@ -460,7 +460,7 @@
 
             }
 
-            / Inicio dos estilos das seções do instrutor e do carro. /
+            /* Inicio dos estilos das seções do instrutor e do carro. */
 
             .about .grid,.car .grid {
 
@@ -472,7 +472,7 @@
 
             }
 
-            / Inicio dos estilos da lista de informações do instrutor. /
+            /* Inicio dos estilos da lista de informações do instrutor. */
 
             .facts {
 
@@ -522,7 +522,7 @@
 
             }
 
-            / Inicio dos estilos iniciais dos depoimentos. /
+            /* Inicio dos estilos iniciais dos depoimentos. */
 
             .reviews {
 
@@ -580,7 +580,7 @@
 
             }
 
-            / Inicio dos estilos da seção de contato. /
+            /* Inicio dos estilos da seção de contato. */
 
             .contact {
 
@@ -598,7 +598,7 @@
 
             }
 
-            / Inicio dos estilos do rodapé. /
+            /* Inicio dos estilos do rodapé. */
 
             footer {
 
@@ -612,7 +612,7 @@
 
             }
 
-            / Inicio dos estilos da seção sobre o carro elétrico. /
+            /* Inicio dos estilos da seção sobre o carro elétrico. */
 
             .ev {
 
@@ -682,7 +682,7 @@
 
             }
 
-            / Inicio dos ajustes para telas maiores. /
+            /* Inicio dos ajustes para telas maiores. */
 
             @media (min-width:760px) {
 
@@ -730,7 +730,7 @@
 
             }
 
-            / Inicio dos estilos do carrossel de fotos e seus controles. /
+            /* Inicio dos estilos do carrossel de fotos e seus controles. */
 
             .carousel {
 
@@ -844,7 +844,7 @@
 
             }
 
-            / Início da estilização dos vídeos dos depoimentos /
+            /* Início da estilização dos vídeos dos depoimentos */
 
             .rev video {
 
@@ -864,7 +864,7 @@
 
 }
 
-            / Inicio das classes para destacar palavras. /
+            /* Inicio das classes para destacar palavras. */
 
             .vermelho-destaque {
 
@@ -878,7 +878,7 @@
 
             }
 
-            / Inicio dos estilos adicionais da seção de depoimentos. /
+            /* Inicio dos estilos adicionais da seção de depoimentos. */
 
             .reviews {
 
@@ -904,7 +904,7 @@
 
             }
 
-            / Inicio dos estilos do carrossel de depoimentos. /
+            /* Inicio dos estilos do carrossel de depoimentos. */
 
             .rev-carousel {
 
@@ -1190,7 +1190,7 @@
 
             }
 
-            / Inicio dos ajustes dos depoimentos para celular. /
+            /* Inicio dos ajustes dos depoimentos para celular. */
 
             @media (max-width: 600px) {
 
